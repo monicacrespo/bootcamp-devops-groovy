@@ -13,7 +13,9 @@ On Windows Powershell:
 ```
 PS C:\_DevOpsHandsOn\bootcamp-devops-groovy> docker run --rm -it -v /c/_DevOpsHandsOn/bootcamp-devops-groovy:/home/groovy/scripts -w /home/groovy/scripts groovy:latest bash
 ```
-
+```
+groovy@bf0b7f0bc25d:~/scripts$ 
+```
 Options explained
 
 * --rm automatically delete a Docker container after running it
@@ -32,11 +34,9 @@ Options explained
 * -w sets the working directory inside the container to /home/groovy/scripts.
 
 
-```
-groovy@bf0b7f0bc25d:~/scripts$ 
-```
 
-## Running a Groovy script. 
+
+## Running a Groovy script
 Syntax: `groovy <script> <script-args>`
 
 Example to run `BasicDocker.groovy` script:
