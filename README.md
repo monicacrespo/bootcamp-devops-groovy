@@ -1,9 +1,10 @@
-# Execute Groovy into Docker containers
+# bootcamp-devops-groovy
+This repository is the result of running the exercises detailed in [00-groovy](https://github.com/Lemoncode/bootcamp-devops-lemoncode/tree/master/03-cd/00-groovy).
 
+## Execute Groovy into Docker containers
 Groovy has an official Docker image at https://hub.docker.com/_/groovy/
 
 ## Pre Requisites
-
 You need to have Docker installed 
 
 ## Groovy Bash 
