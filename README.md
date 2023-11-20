@@ -9,10 +9,10 @@ You need to have Docker installed
 
 ## Groovy Bash 
 
-On Windows Powershell:
+On Windows Powershell, e.g. on C:\_DevOpsHandsOn\bootcamp-devops-groovy folder run the following command:
 
 ```
-PS C:\_DevOpsHandsOn\bootcamp-devops-groovy> docker run --rm -it -v /c/_DevOpsHandsOn/bootcamp-devops-groovy:/home/groovy/scripts -w /home/groovy/scripts groovy:latest bash
+ docker run --rm -it -v /c/_DevOpsHandsOn/bootcamp-devops-groovy:/home/groovy/scripts -w /home/groovy/scripts groovy:latest bash
 ```
 ```
 groovy@bf0b7f0bc25d:~/scripts$ 
